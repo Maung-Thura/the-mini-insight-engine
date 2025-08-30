@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+/data/
+
+# Node/Web (if any)
+node_modules/
+
+/app/__pycache__
+/tests/__pycache__

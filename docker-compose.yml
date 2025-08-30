@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: mini-insight-engine
+    ports:
+      - "8080:8080"
+    # Load OPENAI_API_KEY (and other envs) from local .env at repo root
+    env_file:
+      - .env
+    # Named volume for persistent Chroma data (no macOS file sharing needed)
+    volumes:
+      - mini_insight_data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8080/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  mini_insight_data:
+

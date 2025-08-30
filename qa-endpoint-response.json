@@ -1,0 +1,74 @@
+{
+    "metrics": null,
+    "result": {
+        "answer": "To help with your trouble sleeping, you can try the following:\n\n1. Establish a consistent sleep schedule by going to bed and waking up at the same time every day, even on weekends. This helps regulate your body's internal clock and can improve sleep quality over time [SLEEP_001].\n\n2. Turn your bedroom into a 'sleep sanctuary' by ensuring it is dark, cool, and quiet. A suitable environment signals to your body that it's time for restorative sleep [SLEEP_003].\n\n3. Create a technology curfew by avoiding screens (phones, tablets, TVs) for at least 60 minutes before bed. This helps prevent blue light from confusing your brain and suppressing melatonin production [SLEEP_002].\n\nImplementing these strategies may help improve your sleep.",
+        "contexts": [
+            {
+                "id": "SLEEP_001",
+                "metadata": {
+                    "category": "Sleep",
+                    "recommendation_id": "SLEEP_001",
+                    "symptom": "Difficulty Falling Asleep / Insomnia"
+                },
+                "score": 0.03278688524590164,
+                "text": "Symptom: Difficulty Falling Asleep / Insomnia\nCategory: Sleep\nRecommendation: Establish a consistent sleep schedule by going to bed and waking up around the same time every day, even on weekends.\nExplanation: This helps regulate your body's internal clock, or circadian rhythm, which can improve your sleep quality over time[cite: 2873, 2888].\n"
+            },
+            {
+                "id": "SLEEP_003",
+                "metadata": {
+                    "category": "Sleep",
+                    "recommendation_id": "SLEEP_003",
+                    "symptom": "Difficulty Falling Asleep / Insomnia"
+                },
+                "score": 0.03200204813108039,
+                "text": "Symptom: Difficulty Falling Asleep / Insomnia\nCategory: Sleep\nRecommendation: Turn your bedroom into a 'sleep sanctuary' by ensuring it is dark, cool, and quiet.\nExplanation: A cool, dark environment signals to your body that it's time for restorative sleep, free from distractions that can disrupt your rest[cite: 3283, 5283].\n"
+            },
+            {
+                "id": "SLEEP_002",
+                "metadata": {
+                    "category": "Sleep",
+                    "recommendation_id": "SLEEP_002",
+                    "symptom": "Difficulty Falling Asleep / Insomnia"
+                },
+                "score": 0.03149801587301587,
+                "text": "Symptom: Difficulty Falling Asleep / Insomnia\nCategory: Sleep\nRecommendation: Create a technology curfew by avoiding screens (phones, tablets, TVs) for at least 60 minutes before bed.\nExplanation: The blue light from screens can confuse your brain and suppress the production of melatonin, the hormone that controls your sleep-wake cycle[cite: 3280, 5280].\n"
+            },
+            {
+                "id": "ENERGY_003",
+                "metadata": {
+                    "category": "Energy",
+                    "recommendation_id": "ENERGY_003",
+                    "symptom": "Low Energy / Fatigue"
+                },
+                "score": 0.03128054740957967,
+                "text": "Symptom: Low Energy / Fatigue\nCategory: Energy\nRecommendation: Consider a supplement like Rhodiola, an adaptogen that has been shown in studies to fight depression, improve sleep, and reduce stress-related fatigue.\nExplanation: Rhodiola helps stimulate the nervous system and can improve both mental and physical performance by balancing the body'sresponse to stress[cite: 3503].\n"
+            },
+            {
+                "id": "VASO_001",
+                "metadata": {
+                    "category": "Vasomotor",
+                    "recommendation_id": "VASO_001",
+                    "symptom": "Hot Flashes / Night Sweats"
+                },
+                "score": 0.030330882352941176,
+                "text": "Symptom: Hot Flashes / Night Sweats\nCategory: Vasomotor\nRecommendation: Practice paced, deep breathing for 15-20 minutes twice a day.\nExplanation: Studies have shown that this technique can reduce the frequency of hot flashes by calming the nervous system and regulating your body's stress response[cite: 3961].\n"
+            },
+            {
+                "id": "ENERGY_002",
+                "metadata": {
+                    "category": "Energy",
+                    "recommendation_id": "ENERGY_002",
+                    "symptom": "Low Energy / Fatigue"
+                },
+                "score": 0.029857397504456328,
+                "text": "Symptom: Low Energy / Fatigue\nCategory: Energy\nRecommendation: Systematically reduce your caffeine intake to recalibrate your natural energy levels.\nExplanation: Caffeine can give you a temporary boost by raising cortisol, but this can lead to a crash later and disrupt the natural rhythm of your adrenal system, ultimately worsening fatigue[cite: 3657].\n"
+            }
+        ],
+        "critique": {
+            "needs_revision": false,
+            "reasons": "parse_error"
+        },
+        "iterations": 0,
+        "question": "I have trouble sleeping; what should I try?"
+    }
+}

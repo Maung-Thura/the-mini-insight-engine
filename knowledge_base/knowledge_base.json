@@ -1,0 +1,86 @@
+[
+    {
+        "symptom": "Difficulty Falling Asleep / Insomnia",
+        "category": "Sleep",
+        "recommendations": [
+            {
+                "recommendation_id": "SLEEP_001",
+                "recommendation_text": "Establish a consistent sleep schedule by going to bed and waking up around the same time every day, even on weekends.", 
+                "explanation": "This helps regulate your body's internal clock, or circadian rhythm, which can improve your sleep quality over time[cite: 2873, 2888]."
+            },
+            {
+                "recommendation_id": "SLEEP_002",
+                "recommendation_text": "Create a technology curfew by avoiding screens (phones, tablets, TVs) for at least 60 minutes before bed.",
+                "explanation": "The blue light from screens can confuse your brain and suppress the production of melatonin, the hormone that controls your sleep-wake cycle[cite: 3280, 5280]."
+            },
+            {
+                "recommendation_id": "SLEEP_003",
+                "recommendation_text": "Turn your bedroom into a 'sleep sanctuary' by ensuring it is dark, cool, and quiet.",
+                "explanation": "A cool, dark environment signals to your body that it's time for restorative sleep, free from distractions that can disrupt your rest[cite: 3283, 5283]."
+            }
+        ]
+    },
+    {
+        "symptom": "Hot Flashes / Night Sweats",
+        "category": "Vasomotor",
+        "recommendations": [
+            {
+                "recommendation_id": "VASO_001",
+                "recommendation_text": "Practice paced, deep breathing for 15-20 minutes twice a day.",
+                "explanation": "Studies have shown that this technique can reduce the frequency of hot flashes by calming the nervous system and regulating your body's stress response[cite: 3961]."
+            },
+            {
+                "recommendation_id": "VASO_002",
+                "recommendation_text": "Consider incorporating a Vitamin E supplement into your routine, as it has been shown in several trials to reduce hot flashes.",
+                "explanation": "Vitamin E is believed to help stabilize hormone fluctuations that can trigger vasomotor symptoms like hot flashes and night sweats[cite: 3965, 5221]."
+            },
+            {
+                "recommendation_id": "VASO_003",
+                "recommendation_text": "Explore herbal remedies like Black Cohosh, which has been shown to be effective in improving symptoms of low estradiol like hot flashes.",
+                "explanation": "Black Cohosh appears to be most effective when combined with St. John's wort and is used to reduce hot flashes, sweating, sleep problems, and anxiety[cite: 4033, 4036]."
+            }
+        ]
+    },
+    {
+        "symptom": "Stress / Mood Swings / Irritability",
+        "category": "Mood",
+        "recommendations": [
+            {
+                "recommendation_id": "MOOD_001",
+                "recommendation_text": "Incorporate a daily mindfulness or meditation practice, even for just 5-10 minutes.",
+                "explanation": "Mindfulness practices are proven to lower levels of the stress hormone cortisol, which can help stabilize mood and reduce feelings of being overwhelmed[cite: 3476, 3516]."
+            },
+            {
+                "recommendation_id": "MOOD_002",
+                "recommendation_text": "Ensure you are getting enough Omega-3s by taking a daily fish oil supplement.",
+                "explanation": "Fish oil has been shown to lower cortisol levels that are increased by mental stress, and women with more Omega-3s in their blood have lower androgens, which can contribute to a better cholesterol profile[cite: 3457, 4243]."
+            },
+            {
+                "recommendation_id": "MOOD_003",
+                "recommendation_text": "A daily supplement of Magnesium combined with Vitamin B6 has been shown to reduce PMS-related anxiety.",
+                "explanation": "These micronutrients are essential for the production of neurotransmitters like serotonin that help regulate mood and calm the nervous system[cite: 3730]."
+            }
+        ]
+    },
+    {
+        "symptom": "Low Energy / Fatigue",
+        "category": "Energy",
+        "recommendations": [
+            {
+                "recommendation_id": "ENERGY_001",
+                "recommendation_text": "Engage in moderate, regular exercise like a brisk walk, rather than overly strenuous workouts.",
+                "explanation": "While intense exercise can sometimes raise stress hormones, moderate activity has been shown to improve energy levels and reduce feelings of fatigue over time[cite: 223, 224]."
+            },
+            {
+                "recommendation_id": "ENERGY_002",
+                "recommendation_text": "Systematically reduce your caffeine intake to recalibrate your natural energy levels.",
+                "explanation": "Caffeine can give you a temporary boost by raising cortisol, but this can lead to a crash later and disrupt the natural rhythm of your adrenal system, ultimately worsening fatigue[cite: 3657]."
+            },
+            {
+                "recommendation_id": "ENERGY_003",
+                "recommendation_text": "Consider a supplement like Rhodiola, an adaptogen that has been shown in studies to fight depression, improve sleep, and reduce stress-related fatigue.",
+                "explanation": "Rhodiola helps stimulate the nervous system and can improve both mental and physical performance by balancing the body'sresponse to stress[cite: 3503]."
+            }
+        ]
+    }
+]
